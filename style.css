@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.translator{
+    width: 60vw;
+    margin: auto;
+    background-color: lavender;
+    padding: 5rem;
+}
+
+.translator textarea{
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+border: none;
+}
+
+.translator textarea:focus{
+    outline: 0;
+}
+
+.translator button{
+    background-color: aquamarine;
+    padding: 0.4rem;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    border: 0;
+}
+
+select{
+    display: block;
+    padding: .4rem;
+    margin: 1rem;
+    border: 0;
+
+}
+
+select:focus{
+    outline: 0;
+}
+
